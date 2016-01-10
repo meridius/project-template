@@ -1,0 +1,28 @@
+{
+	"name": "meridius/project-template",
+	"type": "library",
+	"description": "Basic template for new (PHP) project",
+	"keywords": ["template", "php", "project", "new"],
+	"homepage": "https://github.com/meridius/project-template",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Martin Lukeš",
+			"homepage": "https://github.com/meridius/project-template"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/meridius/project-template/issues"
+	},
+	"require": {
+		"nette/utils": "~2"
+	},
+	"autoload": {
+		"psr-0": {
+			"Meridius\\ProjectTemplate\\": "src/"
+		}
+	},
+	"require-dev": {
+		"nette/tester": "^1.6"
+	}
+}
